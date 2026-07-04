@@ -25,6 +25,11 @@ Install all dependencies:
 pip install numpy matplotlib numba scipy
 ```
 
+**Google Colab:** All scripts run in Colab without modification.
+Colab provides `numpy`, `matplotlib`, and `scipy` by default;
+only `numba` needs to be installed (`!pip install numba -q`).
+Paste each script into a cell and run.
+
 ## Figures
 
 | Script            | Output                                                        | Runtime  |
