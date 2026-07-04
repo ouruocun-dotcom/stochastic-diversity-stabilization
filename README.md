@@ -36,6 +36,7 @@ pip install numpy matplotlib numba scipy
 | `fig6_code.py`    | `fig6_relaxation.png`                                         | ~5 min   |
 | `figS4S5_code.py` | `figS4_fluctuation_boundary.png` + `figS5_dt_robustness.png`  | ~15 min  |
 | `figS6_code.py`   | `figS6_fss.png`                                               | ~25 min  |
+| `alpha_fit_analysis.py` | *(printed output only: α and R² for Eq.(11))* | ~2 min  |
 
 Runtimes are approximate on a modern laptop with numba JIT compilation.
 First run may be slower due to JIT warm-up.
