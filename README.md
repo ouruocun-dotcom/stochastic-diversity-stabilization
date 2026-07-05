@@ -42,6 +42,7 @@ Requires Python >= 3.9.
 | `figS4S5_code.py`       | `figS4_fluctuation_boundary.png` + `figS5_dt_robustness.png` |
 | `figS6_code.py`         | `figS6_fss.png`                                              |
 | `alpha_fit_analysis.py` | *(printed output only: α and R² for Eq.(11))*                |
+| `fig6_dt_convergence.py` | *(printed output only: τ at Δt=0.01 vs 0.005)*              |
 
 **Note on runtimes:** Individual script runtimes range from under 1 minute to approximately 10 minutes, but vary significantly depending on hardware (CPU type, numba JIT cache state). In our tests on Colab, total runtime for all 9 scripts ranged from 10 to 40 minutes across different sessions. Runtime differences do not affect output values — all results are deterministic.
 
