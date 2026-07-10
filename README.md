@@ -38,11 +38,13 @@ Requires Python >= 3.9.
 | `fig2_code.py`          | `fig2_response_curves.png`                                   |
 | `fig3_code.py`          | `fig3_universality.png`                                      |
 | `fig4_code.py`          | `fig4_combined.png` + `fig4_data.npz`                        |
-| `fig6_code.py`          | `fig6_relaxation.png`                                        |
+| `fig6_code.py`          | `fig6_relaxation.png` (= Figure 5 in paper)                  |
 | `figS4S5_code.py`       | `figS4_fluctuation_boundary.png` + `figS5_dt_robustness.png` |
 | `figS6_code.py`         | `figS6_fss.png`                                              |
 | `alpha_fit_analysis.py` | *(printed output only: α and R² for Eq.(11))*                |
 | `fig6_dt_convergence.py` | *(printed output only: τ at Δt=0.01 vs 0.005)*              |
+
+**Note on filenames:** Script and output filenames (`fig6_...`) reflect the development history and do not match the compiled figure numbers in the paper. The mapping is: `fig1`→Figure 1, `fig2`→Figure 2, `fig3`→Figure 3, `fig4`→Figure 4, `fig6`→Figure 5 (no Figure 6 in the final paper because the original Fig 4a was merged into Fig 4).
 
 **Note on runtimes:** Individual script runtimes range from under 1 minute to approximately 10 minutes, but vary significantly depending on hardware (CPU type, numba JIT cache state). In our tests on Colab, total runtime for all 9 scripts ranged from 10 to 40 minutes across different sessions. Runtime differences do not affect output values — all results are deterministic.
 
